@@ -5,10 +5,10 @@
  */
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'thesis_db');
+define('DB_HOST', 'sql306.infinityfree.com');
+define('DB_USER', 'if0_41457617');
+define('DB_PASS', 'Krzxnn112');
+define('DB_NAME', 'if0_41457617_thesis_db');
 
 // Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
