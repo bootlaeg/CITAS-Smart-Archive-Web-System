@@ -1,7 +1,7 @@
 <?php
 /**
  * Favorites Page - Redesigned
- * CITAS Thesis Repository System
+ * CITAS Smart Archive System
  */
 
 require_once 'db_includes/db_connect.php';
@@ -23,7 +23,7 @@ $result = $stmt->get_result();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorites - CITAS Thesis Repository</title>
+    <title>My Favorites - CITAS Smart Archive</title>
     <link rel="icon" type="image/png" href="img/CITAS_logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -440,7 +440,7 @@ $result = $stmt->get_result();
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>CITAS Thesis Repository</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">

@@ -1,7 +1,7 @@
 <?php
 /**
  * View Thesis Details Page - Redesigned
- * CITAS Thesis Repository System
+ * CITAS Smart Archive System
  */
 
 require_once 'db_includes/db_connect.php';
@@ -527,7 +527,7 @@ if (is_logged_in()) {
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>CITAS Thesis Repository</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">

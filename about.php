@@ -1,7 +1,7 @@
 <?php
 /**
- * About Us Page - CITAS Thesis Repository
- * CITAS Thesis Repository System
+ * About Us Page - CITAS Smart Archive
+ * CITAS Smart Archive System
  */
 
 require_once 'db_includes/db_connect.php';
@@ -11,7 +11,7 @@ require_once 'db_includes/db_connect.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - CITAS Thesis Repository</title>
+    <title>About Us - CITAS Smart Archive</title>
     <link rel="icon" type="image/png" href="img/CITAS_logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -890,7 +890,7 @@ require_once 'db_includes/db_connect.php';
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>CITAS Thesis Repository</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">
@@ -936,13 +936,13 @@ require_once 'db_includes/db_connect.php';
         <!-- Page Header -->
         <section class="page-header">
             <h1><i class="fas fa-info-circle me-2"></i>About Us</h1>
-            <p>Learn more about CITAS Thesis Repository and the team behind it</p>
+            <p>Learn more about CITAS Smart Archive and the team behind it</p>
         </section>
 
         <!-- About Repository Section -->
         <section class="about-repository">
-            <h3><i class="fas fa-book me-2"></i>About CITAS Thesis Repository Web System</h3>
-            <p>The CITAS Thesis Repository Web System makes it easy for Samar College students to access past research online. Students can quickly search and read thesis summaries, while full documents are securely available to registered users. This platform saves time, reduces reliance on printed copies, and preserves valuable research for future use.</p>
+            <h3><i class="fas fa-book me-2"></i>About CITAS Smart Archive Web System</h3>
+            <p>The CITAS Smart Archive Web System makes it easy for Samar College students to access past research online. Students can quickly search and read thesis summaries, while full documents are securely available to registered users. This platform saves time, reduces reliance on printed copies, and preserves valuable research for future use.</p>
             
             <h4 style="color: var(--primary-orange); margin-top: 1.5rem; margin-bottom: 0.75rem; font-weight: 600;">Key Features:</h4>
             <ul class="features-list">
@@ -1030,7 +1030,7 @@ require_once 'db_includes/db_connect.php';
         <!-- Development Team Section -->
         <section class="content-section">
             <h3><i class="fas fa-users me-2"></i>Development Team</h3>
-            <p>The CITAS Thesis Repository was developed by a dedicated team of IT professionals committed to creating a robust and user-friendly academic platform.</p>
+            <p>The CITAS Smart Archive was developed by a dedicated team of IT professionals committed to creating a robust and user-friendly academic platform.</p>
 
             <div class="developers-container">
                 <!-- System Developer Card -->
@@ -1152,7 +1152,7 @@ require_once 'db_includes/db_connect.php';
         <!-- Technologies Section -->
         <section class="content-section">
             <h3><i class="fas fa-code me-2"></i>Technologies Used</h3>
-            <p>The CITAS Thesis Repository is built on a modern technology stack designed for reliability, security, and scalability:</p>
+            <p>The CITAS Smart Archive is built on a modern technology stack designed for reliability, security, and scalability:</p>
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
                 <div style="padding: 1rem; background: var(--light-cream); border-radius: 8px; border-left: 4px solid var(--primary-orange);">
