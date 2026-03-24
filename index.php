@@ -1,8 +1,5 @@
 <?php
-/**
- * Main Homepage - Redesigned
- * CITAS Thesis Repository System
- */
+
 
 require_once 'db_includes/db_connect.php';
 ?>
@@ -11,7 +8,7 @@ require_once 'db_includes/db_connect.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CITAS Thesis Repository Web System</title>
+    <title>CITAS Smart Archive</title>
     <link rel="icon" type="image/png" href="img/CITAS_logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -750,7 +747,7 @@ require_once 'db_includes/db_connect.php';
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>CITAS Thesis Repository</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">
@@ -822,7 +819,7 @@ require_once 'db_includes/db_connect.php';
     <main class="main-content">
         <!-- Featured Section -->
         <section class="featured-banner">
-            <h2>Welcome to CITAS Thesis Repository</h2>
+            <h2>Welcome to CITAS Smart Archive</h2>
             <p>Discover, share, and collaborate on academic research</p>
         </section>
 
@@ -852,7 +849,7 @@ require_once 'db_includes/db_connect.php';
 <div class="auth-modal-overlay" id="authModalOverlay">
     <div class="auth-modal-content">
         <div class="auth-modal-header">
-            <h2>Welcome to CITAS Thesis Repository</h2>
+            <h2>Welcome to CITAS Smart Archive</h2>
             <button type="button" class="auth-modal-close" onclick="closeAuthModal()">&times;</button>
         </div>
 
