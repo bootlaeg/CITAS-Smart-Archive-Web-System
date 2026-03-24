@@ -747,7 +747,7 @@ require_once 'db_includes/db_connect.php';
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>CITAS Smart Archive1</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">
