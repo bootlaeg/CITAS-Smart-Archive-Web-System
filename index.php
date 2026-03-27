@@ -755,7 +755,7 @@ require_once 'db_includes/db_connect.php';
         </div>
         <nav class="nav-links">
             <?php if (is_logged_in()): ?>
-            <a href="index.php" class="nav-link"><i class="fas fa-home"></i> 2Home</a>
+            <a href="index.php" class="nav-link"><i class="fas fa-home"></i>    Home</a>
             <div class="notification-center" id="notificationCenter" style="position: relative;">
                 <a href="#" class="nav-link" onclick="event.preventDefault(); toggleNotificationPanel()" title="Notifications">
                     <i class="fas fa-bell"></i>
@@ -820,7 +820,7 @@ require_once 'db_includes/db_connect.php';
         <!-- Featured Section -->
         <section class="featured-banner">
             <h2>Welcome to CITAS Smart Archive</h2>
-            <p>Discover, share, and collaborate on academic research</p>
+            <p>34567Discover, share, and collaborate on academic research</p>
         </section>
 
         <!-- Search Section -->
