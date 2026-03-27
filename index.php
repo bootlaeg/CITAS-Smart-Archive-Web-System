@@ -820,7 +820,7 @@ require_once 'db_includes/db_connect.php';
         <!-- Featured Section -->
         <section class="featured-banner">
             <h2>Welcome to CITAS Smart Archive</h2>
-            <p>34567Discover, share, and collaborate on academic research</p>
+            <p>Discover, share, and collaborate on academic research</p>
         </section>
 
         <!-- Search Section -->
