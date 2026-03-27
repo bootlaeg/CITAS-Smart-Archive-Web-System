@@ -747,7 +747,7 @@ require_once 'db_includes/db_connect.php';
     <div class="header-container">
         <div class="logo">
             <i class="fas fa-book-open"></i>
-            <span>xCITAS Smart Archive</span>
+            <span>CITAS Smart Archive</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search theses, authors, topics..." id="headerSearchInput">
@@ -755,7 +755,7 @@ require_once 'db_includes/db_connect.php';
         </div>
         <nav class="nav-links">
             <?php if (is_logged_in()): ?>
-            <a href="index.php" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            <a href="index.php" class="nav-link"><i class="fas fa-home"></i> 2Home</a>
             <div class="notification-center" id="notificationCenter" style="position: relative;">
                 <a href="#" class="nav-link" onclick="event.preventDefault(); toggleNotificationPanel()" title="Notifications">
                     <i class="fas fa-bell"></i>
